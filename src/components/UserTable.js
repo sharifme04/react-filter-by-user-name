@@ -8,7 +8,7 @@ class UserTable extends Component {
     const rows = [];
 
     this.props.users.forEach((user) => {
-      if (user.name.indexOf(filterText) === -1) {
+      if ((user.name.indexOf(filterText)=== -1) && (user.city.indexOf(filterText)=== -1) ) {
         return;
       }
       rows.push(

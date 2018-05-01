@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class SearchBar extends Component {
   constructor(props) {
     super(props);
+
     this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
   }
 
@@ -18,7 +19,7 @@ class SearchBar extends Component {
           <input
             className="form-control text-center"
             type="text"
-            placeholder="Search by users name"
+            placeholder="Search by users name or by city"
             value={this.props.filterText}
             onChange={this.handleFilterTextChange}
           />
