@@ -1,0 +1,7 @@
+[
+ {"name":"Sharif",  "gender" : "Male", "salary":5500.6644, "city":"dhaka" },
+ {"name":"Arif",  "gender" : "Male", "salary":4500.744, "city":"London" },
+ {"name":"Sarowar", "gender" : "Male", "salary":11500.6534, "city":"Freiberg"},
+ {"name":"Nahid,",  "gender" : "Male", "salary":86700.3344, "city":"Tokyo"},
+ {"name":"Ayesha",  "gender" : "Female", "salary":53200.6644, "city":"Rangpur" }
+]
